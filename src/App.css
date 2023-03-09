@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainElement{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 90px;
+}
+.mainElement > button{
+  height: 50px;
+}
